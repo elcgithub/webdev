@@ -1,0 +1,43 @@
+
+body {
+	background-color: cadetblue;
+	font-family: Comic Sans MS;
+}
+
+h1{
+	background-color: blue;
+	text-align: center;
+}
+
+ul {
+	font-size: 30px;
+}
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: mediumaquamarine;
+}
+.tab button {
+	background-color: salmon;
+	float: center;
+	border: 4px dashed red;
+	outline: 2px dashed red;
+	cursor: pointer;
+	padding: 14px 60px;
+	transition: 0.3s;
+}
+.tab button:hover {
+	background-color: steelblue;
+}
+.tab button.active {
+	background-color: midnightblue;
+}
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: 50px solid #red
+	border-top: none;
+}
+#gif_1 {
+	display: none;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>All About Elaine!</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="portfolio.js"></script>
+<!--
+<style>
+	body {background-color: cadetblue; font-family:Comic Sans MS;}
+	h1 {background-color: blue; text-align: center;}
+
+	}
+
+</style>
+-->
+</head>
+
+<body>
+	<h1 style="color:gold; font-family:Comic Sans MS,cursive;">ELAINE CHEN</h1>
+	<h2 style="text-align: center;font-family:Papyrus,fantasy; background-color: cadetblue;"><em>Wow yes info about me</em></h1>
+
+	<div class="tab">
+		<button class="tablinks" tabindex= "0" onclick="openSection(event, 'Bio')" style="color: white; font-family: Comic Sans MS,cursive; font-size: 16px" id="defaultOpen" >Bio</button>
+		<button class="tablinks" tabindex= "0" onclick="openSection(event, 'Hobbies')" style="color: white; font-family: Comic Sans MS,cursive; font-size: 16px">Hobbies</button>
+		<button class="tablinks" tabindex= "0" onclick="openSection(event, 'Great Books')" style="color: white; font-family: Comic Sans MS,cursive; font-size: 16px">Great Books</button>
+		<button class="tablinks" tabindex= "0" onclick="openSection(event, 'Fun Facts')" style="color: white; font-family: Comic Sans MS,cursive; font-size: 16px">Fun Facts</button>
+		<button class="tablinks" tabindex= "0" onclick="openSection(event, 'Fun Stuff')" style="color: white; font-family: Comic Sans MS,cursive; font-size: 16px">Fun Stuff</button>
+	</div>
+
+
+	<div id="Bio" class="tabcontent">	
+		<h2 style="background-color: blueviolet; color: deeppink;"><em>Bio:</em></h2>
+		<ul>
+			<li>Rising junior at CSUS</li>
+			<li>I live in Burlingame, if you know where that is</li>
+			<li><a href="https://www.athletic.net/TrackAndField/Athlete.aspx?AID=11117648#!/L0">My track stats!</a></li>
+		</ul>
+		<iframe alt="I've got BANGS gif" src="https://giphy.com/embed/9IzlDvtCcaARG" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/times-chicago-phases-9IzlDvtCcaARG">via GIPHY</a></p>
+	</div>
+
+	<div id="Hobbies" class="tabcontent">	
+		<h2 style="background-color: tomato; color: slateblue;"><em>Hobbies:</em></h2>
+		<ul>
+			<li>Sleeping</li>
+			<li>Eating</li>
+			<li>Reading</li>
+			<li>Running</li>
+			<li>Making aesthetically displeasing things</li> 
+		</ul>
+		<iframe alt="pink green meowing cat" src="https://giphy.com/embed/tLhJ1O983AuKk" width="343" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/aesthetic-tLhJ1O983AuKk">via GIPHY</a></p>
+	</div>
+
+	<div id="Great Books" class="tabcontent">	
+		<h2 style="background-color: red; color: wheat;"><em>Great Books:</em></h2>
+		<ul>
+			<li><em>Cutting for Stone</em> by Abraham Verghese</li> <img src="https://images.gr-assets.com/books/1327931601l/3591262.jpg" alt="Verghese's Cutting for Stone">
+			<li><em>And Then There Were None</em> by Agatha Christie</li> <iframe alt="And Then There Were None gif of Aidan Turner" src="https://giphy.com/embed/oBU5C76HnNXY4" width="480" height="240" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/poldark-oBU5C76HnNXY4">via GIPHY</a></p>
+			<li>Any Agatha Christie book</li>
+			<li><em>The Namesake</em> by Jhumpa Lahiri</li> <img src="http://www.kcrw.com/news-culture/shows/bookworm/jhumpa-lahiri/@@images/merch_image/thumb" alt="cover of The Namesake">
+		</ul>
+	</div>
+
+	<div id="Fun Facts" class="tabcontent">	
+		<h2 style="background-color: mediumspringgreen; color: mediumpurple;"><em>Fun Facts</em></h2>
+		<ul>
+			<li>I played club soccer for 6 years</li>
+			<li>I did competitive gymnastics for 5 years</li>
+			<li>I can jump 5’2” in HJ</li>
+			<li>My favorite physical activity is actually dance</li>
+			<li>JHU CTY LOS 16.1 LOGC</li>
+			<li>I have a pet shrimp named Bob</li>
+			<iframe src="https://giphy.com/embed/8UGDhz3NE8M7zUsyKr" width="480" height="384" frameBorder="0" class="giphy-embed" allowFullScreen alt="guy with thumbs up gif"></iframe><p><a href="https://giphy.com/stickers/andrewwk-andrew-w-k-8UGDhz3NE8M7zUsyKr">via GIPHY</a></p>
+		</ul>
+	</div>
+
+    <div id="Fun Stuff" class="tabcontent">
+		  <button id="boredButton" onclick="boredFunction()" style="font-size: 40px; background-color: lawngreen; font-family: Comic Sans MS;">Bored? Click here!</button>
+
+	 </div>
+    
+    <!-- <div id="gif_1" style="width:30%;height:0;padding-bottom:75%;position:relative;"><iframe src="https://giphy.com/embed/vbD9OoDgUOpkk" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div> -->
+
+    <iframe id="gif_1" src="https://giphy.com/embed/vbD9OoDgUOpkk" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-weird-teeth-vbD9OoDgUOpkk">via GIPHY</a></p>
+
+    <!-- <iframe id="gif_2" src="https://giphy.com/embed/K9xSg6x9f4aAM" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/weird-soap-tooth-brush-K9xSg6x9f4aAM">via GIPHY</a></p> -->
+
+	<!-- <script>
+		document.getElementById("defaultOpen").click();
+
+		function openSection(evt, tabName) {
+
+			var i, tabcontent, tablinks;
+
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+
+			document.getElementById(tabName).style.display = "block";
+			evt.currentTarget.className += " active";
+		}
+	</script>. -->
+
+</body>
